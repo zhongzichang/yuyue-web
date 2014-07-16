@@ -6,7 +6,7 @@ import net.liftweb.sitemap.{Menu, SiteMap}
 class Boot {
   def boot{
     // where to search snippet
-    LiftRules.addToPackages("com.zhongzichang.yuyue")
+    LiftRules.addToPackages("code")
     // build sitemap
     def sitemap(): SiteMap = SiteMap(
       Menu.i("Home") / "index"
